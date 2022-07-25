@@ -7,6 +7,7 @@
     "dev": "wrangler dev",
     "deploy": "wrangler publish",
     "format": "npx prettier \"{src,test}/**/*.ts\" --write",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
     "wrangler": "wrangler"
   },
   "devDependencies": {
