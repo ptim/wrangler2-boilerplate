@@ -8,6 +8,7 @@
     "deploy": "wrangler publish",
     "format": "npx prettier \"{src,test}/**/*.ts\" --write",
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "types:check": "tsc && tsc -p test/tsconfig.json",
     "wrangler": "wrangler"
   },
   "devDependencies": {
