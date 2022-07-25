@@ -6,6 +6,7 @@
     "start": "npm run dev",
     "dev": "wrangler dev",
     "deploy": "wrangler publish",
+    "format": "npx prettier \"{src,test}/**/*.ts\" --write",
     "wrangler": "wrangler"
   },
   "devDependencies": {
